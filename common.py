@@ -70,7 +70,7 @@ def display_text(doc: spacy.tokens.Doc):
 
 
 def get_model() -> spacy.Language:
-    model = spacy.load("./output2/model-best/")
+    model = spacy.load("./output/model-best/")
     return model
 
 
