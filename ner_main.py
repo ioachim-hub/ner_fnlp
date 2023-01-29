@@ -1,6 +1,6 @@
 import streamlit as st
 
-from app.common import State
+from common import State
 
 
 def render(state: State) -> None:

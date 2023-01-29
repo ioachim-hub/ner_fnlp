@@ -4,8 +4,8 @@ import streamlit as st
 
 from datetime import datetime
 
-from app import ner_tagging, ner_main, ner_comparing
-from app.common import get_state
+import ner_tagging, ner_main, ner_comparing
+from common import get_state
 
 
 def init_logging() -> None:
