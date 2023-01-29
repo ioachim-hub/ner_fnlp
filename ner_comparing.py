@@ -3,7 +3,7 @@ import json
 import spacy.tokens
 import streamlit as st
 
-from app.common import get_model, display_text, NpEncoder, State, DataEntry
+from common import get_model, display_text, NpEncoder, State, DataEntry
 
 model = get_model()
 
